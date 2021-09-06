@@ -1,5 +1,5 @@
 salarioBruto = float(input('Informe o salário bruto:'))
-numeroDependentes = float(input('Informe o número de dependentes:'))
+numeroDependentes = int(input('Informe o número de dependentes:'))
 deducaoDependentes = numeroDependentes * 189.59
 
 calculoInss = salarioBruto
